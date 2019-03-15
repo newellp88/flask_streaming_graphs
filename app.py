@@ -76,4 +76,4 @@ def candle_chart():
 
 
 if __name__ == "__main__":
-    sio.run(app)
+    sio.run(app, host='0.0.0.0')
